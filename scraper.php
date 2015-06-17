@@ -16,7 +16,7 @@ foreach($dom->find("div[@align='left'] tr") as $data){
     }
 }  
 scraperwiki::save(array('country'), $record);  
-select * from swdata order by AllSaidScraper desc limit 10  
+select * from swdata order by AllSaidScraper desc limit 10  ;
 
 // This is a template for a PHP scraper on morph.io (https://morph.io)
 // including some code snippets below that you should find helpful
