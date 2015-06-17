@@ -15,8 +15,7 @@ foreach($dom->find("div[@align='left'] tr") as $data){
         print json_encode($record) . "\n";
     }
 }  
-GET https://api.morph.io/[sukelali/AllSaidScraper]/data.[json]?key=[UC2UsEz2Qfx7dUBAnSNz]&query=[select * from 'data' limit 10]  
-
+curl "https://api.morph.io/sukelali/AllSaidScraper/data.json?key=UC2UsEz2Qfx7dUBAnSNz&query=select%20*%20from%20'data'%20limit%2010"
 
 // This is a template for a PHP scraper on morph.io (https://morph.io)
 // including some code snippets below that you should find helpful
